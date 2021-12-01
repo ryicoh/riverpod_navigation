@@ -41,6 +41,7 @@ class RiverpodRouterDelegate extends RouterDelegate<Uri>
   }
 
   @override
+  // ignore: invalid_use_of_protected_member
   Uri? get currentConfiguration => notifier.state.current.toUri();
 
   @override
